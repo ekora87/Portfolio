@@ -2,22 +2,33 @@
     box-sizing: border-box;
 }
 
+
+
+
 body {
     width: 90%;
     margin: 20px auto;
     text-align: center;
-}
-.clearfix {
-    display: block;
-    content: "";
-    clear: both;
+    font-family: 'Open Sans', sans-serif;
 }
 
+
 .nav-section {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+}
+
+ul {
+    font-weight: bold;
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
 }
 
 .logo {
@@ -32,7 +43,6 @@ nav {
 
     /* text-align: center; */
     line-height: 50px;
-    background-color: lightgray;
     width: 40%;
     height: 50px;
 }
