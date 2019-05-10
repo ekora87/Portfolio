@@ -3,32 +3,53 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Source+Code+Pro" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
     </head>
-    <body>
+    <body class="clearfix">
         <div class="clearfix nav-section">
             <div class="logo">NP</div>
-            <nav>
-                <ul>
-                    <i class="fas fa-bars"></i>
+            <div class="Navbar__Link Navbar__Link-toggle ">
+                    <span class="menu">MENU</span><i class="fas fa-bars"></i>
+            </div>
+        
+            <nav class="Navbar__Items" id="myTopnav">
+                <ul>                    
                     <li>About Me</li>
                     <li>Projects</li>
                     <li>Contact Me</li>
                 </ul>
             </nav>
-
         </div>
+            <div class="drop-down-nav">
+                    <ul>                    
+                        <li class="Navbar__Link">About Me</li>
+                        <hr>
+                        <li class="Navbar__Link">Projects</li>
+                        <hr>
+                        <li class="Navbar__Link">Contact Me</li>
+                    </ul>
+            </div>
+
+        
         
         <main>
             <header role="headline">
-                 <h1>WEB DEVELOPER</h1>
-                 
+                 <h1>Hi, I'm Neo.</h1>
+                 <h2>A Full Stack Web Developer & A Full Time Dad</h2>
             </header>
-            <section>PROFILE IMAGE</section>
-            <section>BIO</section>
-            <section>CONTACT ME</section>
+            <img class="avatar" src="avataaars.png" alt="profile picture">
+            <section class="bio" role="bio info">
+                <h3>About Me:</h3>
+                <p>I've recently graduated from Thinkful's full stack bootcamp. I enjoy making websites, solving problems with Javascripts and engaging with projects which require using both left and right sides of my brain to create a visually appeling yet functional experience.</p>
+                <h3>Current Work:</h3>
+                <p>I currently am working as a Purchaser at Discount Electronics. I'm also managing our E-Commerce website, Head of marketing, and I build small apps for the business as needed.</p>
+                <h3>My Hobbies</h3>
+                <p>Outside of work, I'm a Full-Time Dad to my beautiful wife, 2 kids and a couple of puppies. On my downtime, I'd love to crack a beer and smoke some BBQ meats. Just like coding, it takes time and patience. Also, spend times with my family, teach my kids tennis and piano, and track my car at COTA (Circuit Of The America). After all, I Am The One. </p>
+            </section>
         </main>
         <footer role="content-info">Footer</footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

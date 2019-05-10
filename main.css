@@ -2,8 +2,11 @@
     box-sizing: border-box;
 }
 
-
-
+.clearfix {
+    display: block;
+    content: "";
+    clear:both;
+}
 
 body {
     width: 90%;
@@ -12,46 +15,81 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2 {
+    margin: 20px 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: grey;
+}
+
 
 .nav-section {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-ul {
-    font-weight: bold;
-    font-size: 16px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around; */
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 .logo {
     width: 50px;
     height: 50px;
     border: 5px solid black;
-    /* text-align: center; */
     line-height: 35px;
 }
 
-nav {
-
-    /* text-align: center; */
-    line-height: 50px;
-    width: 40%;
-    height: 50px;
+.menu {
+    margin-right: 10px;
 }
 
-header, section {
-    min-height: 200px;
-    line-height: 200px;
-    background-color: #bbb;
+ul {
+    font-size: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.drop-down-nav > ul > li {
+    padding: 20px 0;
+}
+
+.Navbar__Items {
+    display: none;
+}
+
+.drop-down-nav {
+    display: none;
+    height: auto;
+}
+
+.Navbar__ToggleShow {
+    display: block;
+   
+}
+
+.drop-down-nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+section {
     margin: 30px 0;
+}
+
+.bio > p {
+    color: grey;
+    letter-spacing: 2px;
 }
   
 section:nth-child(even) {
@@ -61,4 +99,23 @@ section:nth-child(even) {
 body > footer {
     padding: 1% 0;
     background-color: #aaa;
+}
+
+@media only screen and (min-width: 768px) {
+    .Navbar__Link, .drop-down-nav {
+        display: none;
+    }
+    
+    .Navbar__Items {
+        display: block;
+    }
+
+    .Navbar__Items > ul > li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+
+
+  
 }
