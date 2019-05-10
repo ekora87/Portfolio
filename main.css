@@ -15,6 +15,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #E77D15;
+}
+
 h1, h2 {
     margin: 20px 0;
     font-family: 'Source Code Pro', monospace;
@@ -90,18 +96,81 @@ section {
 .bio > p {
     color: grey;
     letter-spacing: 2px;
-}
-  
-section:nth-child(even) {
-    background-color: #ddd;
+    line-height: 1.6;
 }
 
-body > footer {
-    padding: 1% 0;
-    background-color: #aaa;
+.footer-h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
 }
+
+.footer-h3 {
+    color: grey;
+    font-weight: 100;
+}
+
+.contact-info {
+    
+   /* margin: 50px; */
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.btn {
+    
+    background-color:#E77D15;
+    padding: 15px 30px;
+    border: 1px solid #E77D15;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.fa, .fab {
+    margin-right: 10px;
+}
+
+.project > h4 {
+    color: grey;
+}
+.technologies > button {
+    border-radius: 5px;
+    border: 1px solid lightsalmon;
+    background-color:#E77D15;
+    padding: 5px;
+    color: white;
+}
+.project > a {
+    font-size: 15px;
+    display: block;
+}
+
+.project-pic {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 768px) {
+    body {
+        width: 80%;
+    }
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
     .Navbar__Link, .drop-down-nav {
         display: none;
     }
@@ -114,6 +183,35 @@ body > footer {
         display: inline-block;
         margin: 0 20px;
     }
+
+    .contact-info {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin: 20px;
+    }
+
+    .project-pic {
+        width: 50%;
+        height: 400px;
+    }
+
+    .project-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .project {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+  
+      
 
 
 
