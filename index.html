@@ -16,7 +16,7 @@
                     <span class="menu">MENU</span><i class="fas fa-bars"></i>
             </div>
         
-            <nav class="Navbar__Items">
+            <nav class="Navbar__Items" role=”navigation”>
                 <ul>                    
                     <li><a href="#bio-section">About Me</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -24,7 +24,7 @@
                 </ul>
             </nav>
         </div>
-            <div class="drop-down-nav">
+            <div class="drop-down-nav" role=”navigation”>
                     <ul>                    
                         <li class="drop-down-link"><a href="#bio-section">About Me</a></li>
                         <li class="drop-down-link"><a href="projects.html">Projects</a></li>
@@ -32,15 +32,15 @@
                     </ul>
             </div>
 
-        <main>
-            <header role="headline">
+        <main role="main">
+            <header role="heading" aria-level="1">
                  <h1>Hi, I'm Neo.</h1>
                  <h2>A Full Stack Web Developer & A Full Time Dad</h2>
                  
             </header>
             <img class="avatar" src="profile-avatar.png" alt="profile picture">
             <hr>
-            <section id="bio-section" class="bio" role="bio info">
+            <section id="bio-section" class="bio" role=”region”>
                 <h3>About Me:</h3>
                 <p>I've recently graduated from Thinkful's full stack bootcamp. I enjoy making websites, solving problems with Javascripts and engaging with projects which require using both left and right sides of my brain to create a visually appeling yet functional experience. I'm here to learn and better my skills everyday.</p>
                 <h3>Current Work:</h3>
@@ -50,7 +50,7 @@
                 <hr>
             </section>
         </main>
-        <footer id="footer-section" role="content-info">
+        <footer id="footer-section" role="contentinfo">
             <h2 class="footer-h2">I want to work for you.</h2>
             <h3 class="footer-h3">Let's have a chat and see what I have to offer.</h3>
             <div class="contact-info">

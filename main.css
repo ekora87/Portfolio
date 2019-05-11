@@ -39,6 +39,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    
 }
 
 .logo {
@@ -83,8 +84,7 @@ ul {
 }
 
 .Navbar__ToggleShow {
-    display: block;
-   
+    display: block;  
 }
 
 .drop-down-nav > ul {
@@ -127,7 +127,6 @@ section {
 }
 
 .btn, .project-btn {
-    
     background-color:#E77D15;
     padding: 15px 30px;
     border: 1px solid #E77D15;
@@ -158,6 +157,7 @@ section {
 .technologies {
     margin-bottom:30px;
 }
+
 .technologies > button {
     border-radius: 5px;
     border: 1px solid lightsalmon;
@@ -166,6 +166,7 @@ section {
     color: white;
     margin: 0 5px 10px 5px;
 }
+
 .project-btn {
     font-size: 15px;
     display: block;
@@ -232,6 +233,7 @@ section {
     .project-container > p {
         margin: 50px 0;
     }
+    
     .project {
         height: 100%;
         display: flex;

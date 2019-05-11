@@ -16,7 +16,7 @@
                     <span class="menu">MENU</span><i class="fas fa-bars"></i>
                 </div>
                 
-            <nav class="Navbar__Items">
+            <nav class="Navbar__Items" role=”navigation”>
                 <ul>  
                     <li><a href="index.html">Home</a></li>                                   
                     <li><a href="index.html#bio-section">About Me</a></li>
@@ -24,21 +24,21 @@
                     </ul>
             </nav>
         </div>
-        <div class="drop-down-nav">
+        <div class="drop-down-nav" role=”navigation”>
             <ul>     
                     <li class="drop-down-link"><a href="index.html">Home</a></li>              
                     <li class="drop-down-link"><a href="index.html#bio-section">About Me</a></li>
                     <li class="drop-down-link"><a href="index.html#footer-section">Contact Me</a></li>
             </ul>
         </div>
-        <main>
-                <header role="headline">
+        <main role="main">
+                <header role="heading" aria-level="1">
                     <img class=" avatar avatar-project" src="profile-avatar.png" alt="profile picture">
                      <h1>My Projects</h1>
                      <h2>Some of my previous work over the past few years.</h2>
                      <hr>
                 </header>
-                <section class="project" role="projects-showcase">
+                <section class="project" role="projects-showcase" role=”region”>
                     <div class="project-container">
                     <h3>Avengers Quiz App</h3>
                     <p>A quiz to test your knowdlege abour Avengers: Infinity War movie. Take the quiz and see how well you do :-).</p>
@@ -59,6 +59,15 @@
                 </section>
                 <hr>
         </main>
+        <footer id="footer-section" role="contentinfo">
+            <h2 class="footer-h2">I want to work for you.</h2>
+            <h3 class="footer-h3">Let's have a chat and see what I have to offer.</h3>
+            <div class="contact-info">
+                <a class="btn" href="mailto:email@email.co"><i class="icon fa fa-envelope" aria-hidden="true"></i>Send It</a>
+                <a class="btn" href="https://github.com/ekora87"><i class="icon fab fa-github"></i></i>Github</a>
+                <a class="btn" href="https://www.linkedin.com/in/neo-pham-91a841123"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            </div>
+        </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="index.js"></script>
     </body>
