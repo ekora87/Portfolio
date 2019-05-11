@@ -209,9 +209,11 @@ section {
         margin: 20px;
     }
 
-   
-    .project-pic {
+    .project-pic-link {
         width: 45%;
+    }
+    .project-pic {
+        
         height: 350px;
     }
 
