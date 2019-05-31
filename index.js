@@ -24,6 +24,16 @@ const project = [
         demo: 'https://ekora87.github.io/Space-Project/',
         code: 'https://github.com/ekora87/Space-Project.git',
         image: 'https://user-images.githubusercontent.com/16996692/58388094-8fe38d00-7fdf-11e9-9f9d-75d5cfd273f0.PNG'
+    },
+
+    {
+        name: 'Pricing Calculator',
+        info: 'This app is use to help our Make Ready department calculate pricing for computers and laptops. ',
+        about: "I made this app out of my own time because our Make Ready department always have troubles figure out what is the price for each system.",
+        skills: ['HTML', 'CSS', 'Javascript', 'jQuery'],
+        demo: 'https://ekora87.github.io/Pricing-Calculator/',
+        code: 'https://github.com/ekora87/Pricing-Calculator.git',
+        image: 'https://user-images.githubusercontent.com/16996692/58725164-144d5b80-83a4-11e9-86c6-7bd2ff883e75.PNG'
     }
 ]
 
