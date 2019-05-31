@@ -13,7 +13,7 @@ const project = [
         skills: ['HTML', 'CSS', 'Javascript', 'jQuery'],
         demo: 'https://ekora87.github.io/Quizz-App-Full/',
         code: 'https://github.com/ekora87/Quizz-App-Full.git',
-        image: 'quiz-app.PNG'
+        image: 'https://user-images.githubusercontent.com/16996692/58674830-38af2680-8317-11e9-958b-5ac51a3695c2.PNG'
     },
 
     {
