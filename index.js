@@ -13,7 +13,7 @@ const project = [
         skills: ['HTML', 'CSS', 'Javascript', 'jQuery'],
         demo: 'https://ekora87.github.io/Quizz-App-Full/',
         code: 'https://github.com/ekora87/Quizz-App-Full.git',
-        image: 'quiz-app.png'
+        image: 'quiz-app.PNG'
     },
 
     {
@@ -45,7 +45,7 @@ function renderProjects(list) {
                     <a class="project-btn" href="${list[i].code}" target="_blank">View Code</a>
                     </div>
                     <a class="project-pic-link" href="${list[i].demo}" target="_blank">
-                        <img class="project-pic" src="${list[i].image}" alt="avenger quiz app screen shot">
+                        <img class="project-pic" src="${list[i].image}">
                     </a></section><hr>
                     `)
     }
